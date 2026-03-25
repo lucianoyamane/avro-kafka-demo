@@ -19,6 +19,7 @@ public class UserCreatedConsumer {
     System.out.println("name = " + event.getName());
     System.out.println("email = " + event.getEmail());
     System.out.println("createdAt = " + event.getCreatedAt());
+    System.out.println("phone = " + event.getPhone());
 
     if (email != null && email.contains("erro")) {
       throw new IllegalArgumentException("Erro simulado de negócio para envio à DLT");

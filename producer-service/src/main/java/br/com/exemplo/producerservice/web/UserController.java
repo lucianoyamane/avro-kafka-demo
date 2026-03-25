@@ -26,6 +26,7 @@ public class UserController {
         .setName(request.name())
         .setEmail(request.email())
         .setCreatedAt(OffsetDateTime.now().toString())
+        .setPhone(request.phone())
         .build();
 
     producer.send(event);
