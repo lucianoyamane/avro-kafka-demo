@@ -1,0 +1,3 @@
+br/com/exemplo/consumerservice/config/KafkaConsumerConfig.class
+br/com/exemplo/consumerservice/ConsumerApplication.class
+br/com/exemplo/consumerservice/consumer/UserCreatedConsumer.class

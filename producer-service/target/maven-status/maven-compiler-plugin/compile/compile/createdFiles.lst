@@ -1,0 +1,5 @@
+br/com/exemplo/producerservice/web/UserController.class
+br/com/exemplo/producerservice/web/CreateUserRequest.class
+br/com/exemplo/producerservice/config/KafkaProducerConfig.class
+br/com/exemplo/producerservice/producer/UserCreatedProducer.class
+br/com/exemplo/producerservice/ProducerApplication.class

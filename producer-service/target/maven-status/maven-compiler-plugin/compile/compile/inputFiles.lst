@@ -1,0 +1,5 @@
+/home/luciano/dev/github/lucianoyamane/avro-kafka-demo/producer-service/src/main/java/br/com/exemplo/producerservice/producer/UserCreatedProducer.java
+/home/luciano/dev/github/lucianoyamane/avro-kafka-demo/producer-service/src/main/java/br/com/exemplo/producerservice/web/CreateUserRequest.java
+/home/luciano/dev/github/lucianoyamane/avro-kafka-demo/producer-service/src/main/java/br/com/exemplo/producerservice/config/KafkaProducerConfig.java
+/home/luciano/dev/github/lucianoyamane/avro-kafka-demo/producer-service/src/main/java/br/com/exemplo/producerservice/ProducerApplication.java
+/home/luciano/dev/github/lucianoyamane/avro-kafka-demo/producer-service/src/main/java/br/com/exemplo/producerservice/web/UserController.java
