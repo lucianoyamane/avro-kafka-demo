@@ -12,10 +12,18 @@ public class UserCreatedConsumer {
       groupId = "${spring.kafka.consumer.group-id}"
   )
   public void consume(UserCreated event) {
-    System.out.println("Mensagem recebida:");
+    String email = event.getEmail() != null ? event.getEmail().toString() : null;
+
+    System.out.println("Consumindo evento...");
     System.out.println("id = " + event.getId());
     System.out.println("name = " + event.getName());
     System.out.println("email = " + event.getEmail());
     System.out.println("createdAt = " + event.getCreatedAt());
+
+    if (email != null && email.contains("erro")) {
+      throw new IllegalArgumentException("Erro simulado de negócio para envio à DLT");
+    }
+
+    System.out.println("Evento processado com sucesso.");
   }
 }
