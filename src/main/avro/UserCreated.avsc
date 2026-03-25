@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "br.com.exemplo.avro.schema",
+  "name": "UserCreated",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "email", "type": "string" },
+    { "name": "createdAt", "type": "string" }
+  ]
+}

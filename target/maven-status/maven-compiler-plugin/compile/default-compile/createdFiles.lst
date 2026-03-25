@@ -1,0 +1,11 @@
+br/com/exemplo/avro_kafka_demo/config/AvroSerializer.class
+br/com/exemplo/avro_kafka_demo/config/KafkaProducerConfig.class
+br/com/exemplo/avro_kafka_demo/web/CreateUserRequest.class
+br/com/exemplo/avro_kafka_demo/config/AvroDeserializer.class
+br/com/exemplo/avro_kafka_demo/web/UserController.class
+br/com/exemplo/avro_kafka_demo/producer/UserCreatedProducer.class
+br/com/exemplo/avro_kafka_demo/AvroKafkaDemoApplication.class
+br/com/exemplo/avro_kafka_demo/config/KafkaConsumerConfig.class
+br/com/exemplo/avro/schema/UserCreated.class
+br/com/exemplo/avro_kafka_demo/consumer/UserCreatedConsumer.class
+br/com/exemplo/avro/schema/UserCreated$Builder.class
