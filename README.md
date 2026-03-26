@@ -104,7 +104,15 @@ curl -X POST http://localhost:8080/users \
 ```bash
 curl http://localhost:8081/subjects
 ```
-
+validar Schema Registry
+listar versões
+```bash
+curl http://localhost:8081/subjects/user-created-topic-value/versions
+```
+ver última versão
+```bash
+curl http://localhost:8081/subjects/user-created-topic-value/versions/latest
+```
 ---
 
 ## 🧠 Conceitos

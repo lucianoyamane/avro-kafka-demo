@@ -17,5 +17,6 @@ public class UserCreatedDltConsumer {
     System.out.println("name = " + event.getName());
     System.out.println("email = " + event.getEmail());
     System.out.println("createdAt = " + event.getCreatedAt());
+    System.out.println("phone = " + event.getPhone());
   }
 }
